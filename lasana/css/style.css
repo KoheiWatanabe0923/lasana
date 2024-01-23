@@ -1,0 +1,305 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #664600;
+    font-weight: 700;
+    max-width: 1920px;
+    margin: auto;
+}
+#bgimg {
+    background-image: url(/images/bg_img.png);
+    width: 100%;
+    height: 6000px;
+    position: relative;
+}
+.header {
+    width: 2000px;
+    margin: 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: inherit;
+}
+.container {
+    padding: 70px auto 0;
+}
+
+/* ヘッダー */
+
+header {
+    padding-top: 23px;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1;
+}
+.logo {
+    width: 152px;
+    height: 54px;
+    margin-left: 200px;
+}
+.header_menu {
+    margin-right: 200px;
+}
+.header_menu li {
+    margin-right: 40px;
+}
+.header_link {
+    border-radius: 20px;
+}
+.header_link:hover{
+    border-radius: 20px;
+    background: linear-gradient(270deg, #F1DE6D 0.05%, #F1DE64 45.95%, #F8E3B5 77.58%, #F4DAAA 99.95%);
+}
+.top_fv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.top_fv img {
+    width: 100%;
+}
+
+/*  募集中イベント  */
+
+.title {
+    position: relative;
+    height: 350px;
+}
+.bg_title {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-size: 300px;
+    color: #ffffff;
+    font-family: "Noto Serif JP",serif;
+    font-weight: normal;
+    padding-left: 50px;
+}
+.fr_title {
+    position: absolute;
+    top: 205px;
+    left: 380px;
+    font-weight: 700;
+}
+
+.icons {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px 65px;
+    align-items: center;
+}
+.icon {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.icon:hover {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), rgba(217, 217, 217, 0.01);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    transition: .5s;
+}
+.list {
+    padding: 10px ;
+    border-radius: 20px;
+    transition: .2s;
+}
+.event_img img {
+    width: 330px;
+    height: 300px;
+    border-radius: 20px;
+}
+.event_date {
+    color: #664600;
+    opacity: .5;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.event_text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*  活動報告  */
+
+#report {
+    background-image: url(/images/report.png);
+    width: 1920px;
+    height: 1600px;
+
+}
+#report .title {
+    margin-top: 140px;
+}
+.sec2_title {
+    color: #FFAE00;
+    opacity: .1;
+}
+.buttons {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.button {
+    display: inline-block;
+    padding-right: 40px;
+}
+.button p {
+    display: flex;
+    width: 450px;
+    padding: 23px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #F67600;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(270deg, #F1DE6D 0.05%, #F1DE64 45.95%, #F8E3B5 77.58%, #F4DAAA 99.95%);
+    color: #F67600;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.button p:hover {
+    display: flex;
+    width: 450px;
+    padding: 23px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #F67600;
+    background: linear-gradient(0deg, #F67600 0%, #F67600 100%), linear-gradient(270deg, #F1DE6D 0.05%, #F1DE64 45.95%, #F8E3B5 77.58%, #F4DAAA 99.95%);
+    color: #ffffff;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s;
+}
+
+/*  ラサーナとは  */
+
+#about_us {
+    background-image: url(/images/about_us.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1280px;
+    margin-top: -200px;
+}
+#about_us .event_icons{
+    display: block;
+}
+.sec3 {
+    position: relative;
+}
+.sec3_title {
+    color: #ffffff;
+}
+.sec3_text {
+    color: #664600;
+    text-shadow: 0px 0px 4px #FFF;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #FFF;
+    font-family: "Noto Sans JP";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 380px;
+}
+
+/*  群馬県内の思春期世代を受け入れ可能な産婦人科一覧  */
+.sec4 {
+    position: relative;
+}
+.sec4 .buttons {
+    position: absolute;
+    top: 70px;
+    left: 380px;
+}
+.sec4_button p {
+    display: flex;
+    width: 450px;
+    padding: 23px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #F67600;
+    background: linear-gradient(0deg, #ffffff 0%, #ffffff 100%), linear-gradient(270deg, #F1DE6D 0.05%, #F1DE64 45.95%, #F8E3B5 77.58%, #F4DAAA 99.95%);
+    color: #F67600;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s;
+    width: 1280px;
+}
+.sec4_button p:hover {
+    display: flex;
+    width: 450px;
+    padding: 23px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #F67600;
+    background: linear-gradient(0deg, #F67600 0%, #F67600 100%), linear-gradient(270deg, #F1DE6D 0.05%, #F1DE64 45.95%, #F8E3B5 77.58%, #F4DAAA 99.95%);
+    color: #ffffff;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s;
+    width: 1280px;
+}
+
+/*  フッター  */
+footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 208px;
+}
+.footer_menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 15px;
+}
+.footer small {
+    display: flex;
+    justify-content: center;
+}
+
+
+
